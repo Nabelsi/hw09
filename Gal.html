@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Untitled-1.css">
+    <title>Document</title>
+    <style>
+
+body {
+  background: #000;
+  padding: 10px 50px;
+
+
+}
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+.container {
+    display: grid;
+    
+    justify-items: center;;
+  margin: auto;
+  border: #fff solid 5px;
+  background: #fff;
+}
+
+/* mak images fill their container*/
+img {
+  max-width: 100%;
+
+}
+img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* CSS Grid*/
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows:repeat(3, 1fr);
+  grid-gap: 10px;
+justify-content: center;
+}
+
+/* Media Query for changing grid on bigger screens*/
+
+/* Bigger than Phones(tablet) */
+@media only screen and (min-width: 750px) {
+  .img-grid {
+    grid-template-columns:1fr 1fr;
+     
+      
+  }
+}
+
+     
+
+/* Bigger than Phones(laptop / desktop) */
+@media only screen and (min-width: 970px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .img-grid {
+    grid-template-columns:  1fr;
+  }
+}
+
+@media only screen and (min-width: 1000px)  {
+  .img-grid {
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+  }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <heade>
+            <h1>this is my header</h1>
+    </heade>
+            <nav>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li> 
+                <li><a href="#"></a></li>
+                 <li><a href="#"></a></li>
+            </nav>
+
+        <body>
+          <h1>Pets Gallery</h1>
+          <h1>Gallery</h1>
+
+          <div class="container">
+            <div class="img-grid">
+                 <img
+                        src="https://images.pexels.com/photos/2664417/pexels-photo-2664417.jpeg?cs=srgb&dl=pexels-glenn-2664417.jpg&fm=jpg
+                    "
+                        alt="Corgy dog"
+                      />
+                 <img
+                        src="https://images.pexels.com/photos/2664417/pexels-photo-2664417.jpeg?cs=srgb&dl=pexels-glenn-2664417.jpg&fm=jpg
+                    "
+                        alt="Corgy dog"
+                      />
+          
+              <img
+                        src="https://images.pexels.com/photos/2664417/pexels-photo-2664417.jpeg?cs=srgb&dl=pexels-glenn-2664417.jpg&fm=jpg
+                    "
+                        alt="Corgy dog"
+                      />
+                 <img
+                        src="https://images.pexels.com/photos/2664417/pexels-photo-2664417.jpeg?cs=srgb&dl=pexels-glenn-2664417.jpg&fm=jpg
+                    "
+                        alt="Corgy dog"
+                      />
+                    <img
+                        src="https://images.pexels.com/photos/2664417/pexels-photo-2664417.jpeg?cs=srgb&dl=pexels-glenn-2664417.jpg&fm=jpg
+                    "
+                        alt="Corgy dog"
+                      />
+                    <img
+                        src="https://images.pexels.com/photos/2664417/pexels-photo-2664417.jpeg?cs=srgb&dl=pexels-glenn-2664417.jpg&fm=jpg
+                    "
+                        alt="Corgy dog"
+                      />
+                       <img
+                        src="https://images.pexels.com/photos/2664417/pexels-photo-2664417.jpeg?cs=srgb&dl=pexels-glenn-2664417.jpg&fm=jpg
+                    "
+                        alt="Corgy dog"
+                      />
+                      <img
+                        src="https://images.pexels.com/photos/3114143/pexels-photo-3114143.jpeg?cs=srgb&dl=pexels-helena-lopes-3114143.jpg&fm=jpg"
+                        alt="Two dogs in a garden"
+                        width="600"
+                        height="400"
+                      />
+                      <img
+                        src="https://images.pexels.com/photos/3114143/pexels-photo-3114143.jpeg?cs=srgb&dl=pexels-helena-lopes-3114143.jpg&fm=jpg"
+                        alt="Two dogs in a garden"
+                        width="600"
+                        height="400"
+                      />
+                        <img
+                        src="https://images.pexels.com/photos/3114143/pexels-photo-3114143.jpeg?cs=srgb&dl=pexels-helena-lopes-3114143.jpg&fm=jpg"
+                        alt="Two dogs in a garden"
+                        width="600"
+                        height="400"
+                      />
+              
+                          <img
+                        src="https://images.pexels.com/photos/3114143/pexels-photo-3114143.jpeg?cs=srgb&dl=pexels-helena-lopes-3114143.jpg&fm=jpg"
+                        alt="Two dogs in a garden"
+                        width="600"
+                        height="400"
+                      />
+                          <img
+                        src="https://images.pexels.com/photos/3114143/pexels-photo-3114143.jpeg?cs=srgb&dl=pexels-helena-lopes-3114143.jpg&fm=jpg"
+                        alt="Two dogs in a garden"
+                        width="600"
+                        height="400"
+                      />
+                         <img
+                        src="https://images.pexels.com/photos/3730605/pexels-photo-3730605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="Cat on a cushion"
+                        width="600"
+                        height="400"
+                      />
+              
+                    <img
+                        src="https://images.pexels.com/photos/3730605/pexels-photo-3730605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="Cat on a cushion"
+                        width="600"
+                        height="400"
+                      />
+              
+                      <img
+                        src="https://images.pexels.com/photos/3730605/pexels-photo-3730605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="Cat on a cushion"
+                        width="600"
+                        height="400"
+                      />
+              
+                         <img
+                        src="https://images.pexels.com/photos/3730605/pexels-photo-3730605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="Cat on a cushion"
+                        width="600"
+                        height="400"
+                      />
+              
+                        <img
+                        src="https://images.pexels.com/photos/1687831/pexels-photo-1687831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="White and yellow cat"
+                        width="600"
+                        height="400"
+                      />
+                     <img
+                        src="https://images.pexels.com/photos/1687831/pexels-photo-1687831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="White and yellow cat"
+                        width="600"
+                        height="400"
+                      />
+                   <img
+                        src="https://images.pexels.com/photos/1687831/pexels-photo-1687831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="White and yellow cat"
+                        width="600"
+                        height="400"
+                      />
+                         <img
+                        src="https://images.pexels.com/photos/1687831/pexels-photo-1687831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="White and yellow cat"
+                        width="600"
+                        height="400"
+                      />
+              
+                          <img class="self"
+                        src="https://images.pexels.com/photos/1687831/pexels-photo-1687831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="White and yellow cat"
+                        width="600"
+                        height="400"
+                      />
+              
+              
+              
+              
+              
+              
+              
+              
+            </div>
+          </div>
+        
+        </body>
+      </html>
+
+
+
